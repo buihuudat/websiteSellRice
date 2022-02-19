@@ -1,0 +1,1505 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Administrator-NQVRiceBox</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon1.png">
+
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <style>
+        .is-hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Left Panel -->
+
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./"><img src="images/anh.png" alt="Logo"></a>
+
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <h3><a href="index.html"> <i class="menu-icon ti ti-package"></i>&nbsp;NQVRiceBox</a> </h3>
+                        <hr class="border-secondary">
+                        <!-- <a href="index.html" class="addusername"> <img src="images/avt.jpg" class="rounded-circle addvartar" alt="avartar" width="10"
+                                height="10">&nbsp;&nbsp;QUÝ VĂN NGUYỄN </a> -->
+                        <!-- class="fa fa-info-circle" -->
+                    </li>
+                    <li style="text-align: center">
+                        <a href="index.html"><img src="images/avt.jpg" alt="user image"
+                                class="rounded-circle addvartar " width="100" height="125"></a>
+                    </li>
+                    <li style="text-align: center">
+                        <a href="index.html" class="addusername">&nbsp;&nbsp;QUÝ VĂN NGUYỄN</a>
+                    </li>
+                    <h3 class="menu-title">Danh Mục Quản Lý</h3><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdowns">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="menu-icon fa fa-laptop"></i>Cửa Hàng</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li class="mncuahang"><i class="fa fa-puzzle-piece "></i><a href="#">Cửa Hàng</a></li>
+                            <li class="mncombo"><i class="fa fa-id-badge "></i><a href="#">ComBo</a></li>
+                            <li class="mnloai"><i class="fa fa-bars"></i><a href="#">Loại món ăn</a></li>
+                            <li class="mnmonan"><i class="fa fa-share-square-o"></i><a href="#">Các món ăn</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-table"></i> Nhân Viên</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li class="mnNV"><i class="fa fa-users"></i><a href="#">NV Giao Hàng</a></li>
+                            <li class="mnphieugiaohang"><i class="fa fa-ticket"></i><a href="#">Phiếu Giao Hàng</a></li>
+                        </ul>
+                    </li>
+                    <li class="mnPhieuHen">
+                        <a href="#"> <i class="menu-icon ti-email"></i>Phiếu Hẹn của KH </a>
+                    </li>
+
+                    <h3 class="menu-title">Danh Sách Khách Hàng</h3><!-- /.menu-title -->
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Quản lý Khách Hàng</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li class="mnKH"><i class="menu-icon fa fa-fort-awesome"></i>
+                                <a href="#">Khách Hàng</a>
+                            </li>
+                            <li class="mnHĐ"><i class="menu-icon ti-themify-logo"></i><a href="#">Hóa Đơn</a></li>
+                        </ul>
+                    </li>
+                    <li class="mnDDH">
+                        <a href="#"> <i class="menu-icon ti-email"></i>Đơn Đặt Hàng </a>
+                    </li>
+
+                    <h3 class="menu-title">Quản lý Tài Khoản</h3><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Tài Khoản</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">Đăng Nhập</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Đăng Kí</a></li>
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Quên Mật Khẩu</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                    </li>
+                    <li class="title-chucVu" style="color: white; z-index: 122;">
+                        <h6>Quản Lý</h6>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
+
+    <!-- Right Panel -->
+
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <header id="header" class="header">
+            <i class="fas far far-home">
+                <div class="header-menu">
+                    <i\>
+                        <div class="col-sm-7">
+                            <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                            <div class="header-left">
+                                <div class="form-inline">
+                                </div>
+                                <div class="dropdown for-notification">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="notification"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-bell"></i>
+                                        <span class="count bg-danger">5</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="notification">
+                                        <p class="red">Bạn có 3 thông báo</p>
+                                        <a class="dropdown-item media bg-flat-color-1" href="#">
+                                            <i class="fa fa-check"></i>
+                                            <p>Server #1 .</p>
+                                        </a>
+                                        <a class="dropdown-item media bg-flat-color-4" href="#">
+                                            <i class="fa fa-info"></i>
+                                            <p>Server #2 .</p>
+                                        </a>
+                                        <a class="dropdown-item media bg-flat-color-5" href="#">
+                                            <i class="fa fa-warning"></i>
+                                            <p>Server #3 .</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown for-message">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="message"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="ti-email"></i>
+                                        <span class="count bg-primary">4</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="message">
+                                        <p class="red">Bạn có 4 mail</p>
+                                        <a class="dropdown-item media bg-flat-color-1" href="#">
+                                            <span class="photo media-left"><img alt="avatar"
+                                                    src="images/avatar/1.jpg"></span>
+                                            <span class="message media-body">
+                                                <span class="name float-left">Jonathan Smith</span>
+                                                <span class="time float-right">Ngay bây giờ</span>
+                                                <p>Hello, this is an example msg</p>
+                                            </span>
+                                        </a>
+                                        <a class="dropdown-item media bg-flat-color-4" href="#">
+                                            <span class="photo media-left"><img alt="avatar"
+                                                    src="images/avatar/2.jpg"></span>
+                                            <span class="message media-body">
+                                                <span class="name float-left">Jack Sanders</span>
+                                                <span class="time float-right">5 phút trước</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </span>
+                                        </a>
+                                        <a class="dropdown-item media bg-flat-color-5" href="#">
+                                            <span class="photo media-left"><img alt="avatar"
+                                                    src="images/avatar/3.jpg"></span>
+                                            <span class="message media-body">
+                                                <span class="name float-left">Cheryl Wheeler</span>
+                                                <span class="time float-right">10 phút trước</span>
+                                                <p>Hello, this is an example msg</p>
+                                            </span>
+                                        </a>
+                                        <a class="dropdown-item media bg-flat-color-3" href="#">
+                                            <span class="photo media-left"><img alt="avatar"
+                                                    src="images/avatar/4.jpg"></span>
+                                            <span class="message media-body">
+                                                <span class="name float-left">Rachel Santos</span>
+                                                <span class="time float-right">15 phút trước</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-5">
+                            <div class="user-area dropdown float-right">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <img class="user-avatar rounded-circle" src="images/admin.jpg" alt="User Avatar">
+                                </a>
+
+                                <div class="user-menu dropdown-menu">
+                                    <a class="nav-link" href="#"><i class="fa fa-user"></i> Thông tin của tôi</a>
+
+                                    <a class="nav-link" href="#"><i class="fa fa-user"></i> Thông báo <span
+                                            class="count">13</span></a>
+
+                                    <a class="nav-link" href="#"><i class="fa fa-cog"></i> Cài đặt</a>
+
+                                    <a class="nav-link" href="#"><i class="fa fa-power-off"></i> Đăng xuất</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </header><!-- /header -->
+        <!-- Header-->
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Quản Trị</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li class="active">Danh Mục Quản Lý</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mt-3">
+
+        </div>
+        <!--/.col-->
+        <!-- vùng cửa hàng -->
+        <div class="col-xl-12 formcuahang is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Của Cửa Hàng</h4>
+                    <p class="text-light">Cửa Hàng</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class="form-group ">
+                                    <div class="col col-sm-6"><label for="Exmacuahang">
+                                            <h4>Mã Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Cửa Hàng" class="form-control txtmaCH">
+                                    </div>
+                                </div>
+                                <div class=" form-group ">
+                                    <div class="col col-sm-6"><label for="Extencuahang">
+                                            <h4>Tên Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Tên Cửa Hàng" class="form-control txttenCH">
+                                    </div>
+                                </div>
+                                <div class="row form-group ">
+                                </div>
+                                <div class="form-group">
+                                    <div class="col col-sm-12"><label for="Exdiachicuahang">
+                                            <h4>Địa Chỉ Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Địa Chỉ Cửa Hàng"
+                                            class="form-control txtdiachiCH">
+                                    </div>
+                                </div>
+                                <div class="row form-group ">
+                                </div>
+                                <div class="form-group">
+                                    <div class="col col-sm-12"><label for="Exdiachicuahang">
+                                            <h4>Số điện thoại cửa hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Số điện thoại cửa hàng"
+                                            class="form-control txtsdtCH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemCH">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaCH btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuCH">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaCH btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiCH">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các Cửa Hàng Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Cửa Hàng</th>
+                                    <th scope="col">Tên Cửa Hàng</th>
+                                    <th scope="col">Địa Chỉ Cửa Hàng</th>
+                                    <th scope="col">Số ĐT Cửa Hàng</th>
+                                    <th scope="col">Thao Tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListCuaHang">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345678</td>
+                                    <td><span class="badge bg-primary">xem</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng cửa hàng -->
+        <!-- vùng combo -->
+        <div class="col-xl-12 formcombo is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Của ComBo</h4>
+                    <p class="text-light">ComBo</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmacombo">
+                                            <h4>Mã ComBo</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã ComBo" class="form-control txtmaCB">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Món Phụ Ăn Kèm</h4>
+                                        </label>
+                                        <input type="text" placeholder="Món Phụ Ăn Kèm" class="form-control txtmonphu">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="form-group">
+                                    <div class="col col-sm-6"><label for="Exgiak">
+                                            <h4>Giá Khuyến Mãi</h4>
+                                        </label>
+                                        <input type="text" placeholder="Giá Khuyến Mãi" class="form-control txtgiasale">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col col-sm-6"><label for="Exsl">
+                                            <h4>Số Lượng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Số Lượng" class="form-control txtsoluong">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="form-group">
+                                    <div class="col col-sm-12"><label for="Excuahang">
+                                            <h4>Mã Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Cửa Hàng" class="form-control txtmacuahang">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 thêm btnthemCB">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaCB btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuCB">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaCB btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiCB">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các ComBo Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã ComBo</th>
+                                    <th scope="col">Món Phụ Ăn Kèm </th>
+                                    <th scope="col">Giá Khuyến Mãi</th>
+                                    <th scope="col">Số Lượng</th>
+                                    <th scope="col">Mã Cửa Hàng</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListComBo">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>CTKD</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng combo -->
+        <!-- vùng loại món ăn -->
+        <div class="col-xl-12 formloaimon is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Loại Món Ăn</h4>
+                    <p class="text-light">Loại Món Ăn</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Exmacombo">
+                                            <h4>Mã Loại Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Loại Món Ăn" class="form-control txtmaLM">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Tên Loại</h4>
+                                        </label>
+
+                                        <select class="form-control txttenLM">
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Excuahang">
+                                            <h4>Mã Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Cửa Hàng" class="form-control txtCHLM">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemLM">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaLM btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuLM">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaLM btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiLM">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="row-xl-6 ">
+                        <h3 class="display-5">Các Loại Món Ăn Hiện Có</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Loại Món Ăn</th>
+                                    <th scope="col">Mã Cửa Hàng</th>
+                                    <th scope="col">Tên Loại</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListLoaiMon">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>45</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div class="NumberpageLoaimon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc loại món ăn -->
+        <!-- vùng món ăn  -->
+        <div class="col-xl-12 formmonan is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thực Đơn </h4>
+                    <p class="text-light">Món Ăn</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Món Ăn" class="form-control txtmaMA">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Tên Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Tên Món Ăn" class="form-control txttenMA">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Excuahang">
+                                            <h4>Thông Tin Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Thông Tin Món Ăn" class="form-control txtttMA">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col col-sm-12"><label for="Excuahang">
+                                            <h4>Mã Loại Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Loại Món Ăn"
+                                            class="form-control txtmaloaiMA">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemMA">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaMA btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuMA">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaMA btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiMA">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các Món Ăn Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Món Ăn</th>
+                                    <th scope="col">Tên Món Ăn </th>
+                                    <th scope="col">Thông Tin Món Ăn</th>
+                                    <th scope="col">Mã Loại Món Ăn</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListMonAn">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <th>xem</th>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng món ăn -->
+        <!-- vùng Nhân viên  -->
+        <div class="col-xl-12 formnhanvien is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Nhân Viên Giao Hàng</h4>
+                    <p class="text-light">Nhân Viên Giao Hàng</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Phiếu Giao Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Phiếu Giao Hàng"
+                                            class="form-control txtmaphieu">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Tên Nhân Viên</h4>
+                                        </label>
+                                        <input type="text" placeholder="Tên Nhân Viên" class="form-control txttenNV">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Excuahang">
+                                            <h4>Mã Phiếu Hẹn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Phiếu Hẹn"
+                                            class="form-control txtmaphieuHenNV">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-6"><label for="Excuahang">
+                                            <h4>Số Điện Thoại NV</h4>
+                                        </label>
+                                        <input type="text" placeholder="Số Điện Thoại NV" class="form-control txtsdtNV">
+                                    </div>
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-6"><label for="Excuahang">
+                                            <h4>Lượng Phiếu Còn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Lượng Phiếu Còn"
+                                            class="form-control txtluongphieuNV">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemNV">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaNV btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuNV">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaNV btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiNV">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Nhân Viên Giao Hàng Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Phiếu Giao Hàng</th>
+                                    <th scope="col">Tên Nhân Viên</th>
+                                    <th scope="col">Mã Phiếu Hẹn</th>
+                                    <th scope="col">Số Điện Thoại NV</th>
+                                    <th scope="col">Lượng Phiếu Còn</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListNV">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td align="center">03</td>
+                                    <td align="center">xem</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng Nhân viên -->
+        <!-- vùng Phíu giao hàng  -->
+        <div class="col-xl-12 formphieuGH is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Phiếu Giao Hàng</h4>
+                    <p class="text-light">Phiếu Giao Hàng</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Phiếu Giao Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Phiếu Giao Hàng"
+                                            class="form-control txtMPGH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Mã Đặt Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Đặt Hàng" class="form-control txtMDH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-6"><label for="Excuahang">
+                                            <h4>Ngày Giao Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Ngày Giao Hàng" class="form-control txtNgayDH">
+                                    </div>
+                                </div>
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-6"><label for="Excuahang">
+                                            <h4>Thời Gian Giao</h4>
+                                        </label>
+                                        <input type="text" placeholder="Thời Gian Giao" class="form-control txtTGG">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Địa Chỉ KH</h4>
+                                        </label>
+                                        <input type="text" placeholder="Địa Chỉ KH" class="form-control txtDCKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Số Phiếu KH</h4>
+                                        </label>
+                                        <input type="text" placeholder="Số Phiếu KH" class="form-control txtSPKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemPGH">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaPGH btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuPGH">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaPGH btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiPGH">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các Phiếu Giao Hàng Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Phiếu Giao Hàng</th>
+                                    <th scope="col">Mã Đặt Hàng</th>
+                                    <th scope="col">Ngày Giao Hàng</th>
+                                    <th scope="col">Thời Gian Giao</th>
+                                    <th scope="col">Địa Chỉ KH</th>
+                                    <th scope="col">Số Phiếu KH</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListPhieuGiaoHang">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>Xem</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng phiếu giao hàng -->
+        <!-- vùng phiếu hẹn   -->
+        <div class="col-xl-12 formphieuHen is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Phiếu Hẹn Của KH</h4>
+                    <p class="text-light">Phiếu Hẹn</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Phiếu Hẹn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Phiếu Hẹn" class="form-control txtmaPH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Ngày lập phiếu</h4>
+                                        </label>
+                                        <input type="text" placeholder="Ngày lập phiếu" class="form-control txtNLPH">
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Ngày Giao Cơm</h4>
+                                        </label>
+                                        <input type="text" placeholder="Ngày Giao Cơm" class="form-control txtNGCPH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Khách Hàng" class="form-control txtmaKHPH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemPH">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaPH btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuPH">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaPH btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiPH">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Phiếu Hẹn Của Khách Hàng Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Phiếu Hẹn</th>
+                                    <th scope="col">Ngày lập phiếu</th>
+                                    <th scope="col">Ngày Giao Cơm</th>
+                                    <th scope="col">Mã Khách Hàng</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListPhieuHen">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>xem</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng phiếu hẹn -->
+        <!-- vùng KH   -->
+        <div class="col-xl-12 formKH is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Của Khách Hàng</h4>
+                    <p class="text-light">Khách Hàng</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Khách Hàng" class="form-control txtmaKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Tên Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Tên Khách Hàng" class="form-control txttenKH">
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Địa Chỉ Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Địa Chỉ Khách Hàng"
+                                            class="form-control txtDCCKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>SĐT Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="SĐT Khách Hàng" class="form-control txtsdtKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemKH">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaKH btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuKH">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaKH btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiKH">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các Khách Hàng Đang Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Khách Hàng</th>
+                                    <th scope="col">Tên Khách Hàng</th>
+                                    <th scope="col">Địa Chỉ KH</th>
+                                    <th scope="col">sdt khách hàng</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListKH">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>xem</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng Khách Hàng -->
+        <!-- vùng phiếu Hóa Đơn   -->
+        <div class="col-xl-12 formHoaD is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Hóa Đơn Khách Hàng</h4>
+                    <p class="text-light">Hóa Đơn</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Hóa Đơn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Hóa Đơn" class="form-control txtmaHD">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-8"><label for="Exmonphu">
+                                            <h4>Tên Món Ăn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Tên Món Ăn" class="form-control txttenmonHD">
+                                    </div>
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-4"><label for="Exmamonan">
+                                            <h4>Số Lượng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Số Lượng" class="form-control txtSLHD">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Thanh Toán</h4>
+                                        </label>
+                                        <input type="text" placeholder="Thanh Toán" class="form-control txtthanhtoan">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Ngày Lập Hóa Đơn</h4>
+                                        </label>
+                                        <input type="text" placeholder="Ngày Lập Hóa Đơn"
+                                            class="form-control txtngaythanhtoan">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Khách Hàng" class="form-control txtmaKHHD">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemHD">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaHD btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuHD">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaHD btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiHD">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Các Phiếu Hóa Đơn Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Hóa Đơn</th>
+                                    <th scope="col">Tên Món Ăn</th>
+                                    <th scope="col">số lượng</th>
+                                    <th scope="col">thanh toán</th>
+                                    <th scope="col">ngày lập </th>
+                                    <th scope="col">Mã Khách Hàng</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListHoaDon">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>xem</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kết thúc vùng Hóa đơn -->
+        <!-- vùng Đơn đặt hàng   -->
+        <div class="col-xl-12 formDDH is-hidden">
+            <div class="card">
+                <div class="card-header bg-dark">
+                    <h4 class="text-light">Thông Tin Đơn Đặt Hàng</h4>
+                    <p class="text-light"> Đơn Đặt Hàng</p>
+                </div>
+                <div class="card-body">
+                    <div class="row-xl-12">
+
+                        <div class="card-body card-block">
+                            <form action="" method="post" class="form-horizontal">
+
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Đặt Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Đặt Hàng" class="form-control txtmadat">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Mã Cửa Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Cửa Hàng" class="form-control txtmacuaa">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmamonan">
+                                            <h4>Mã Khách Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Mã Khách Hàng" class="form-control txtmaaKH">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class=" form-group">
+                                    <div class="col col-sm-12"><label for="Exmonphu">
+                                            <h4>Ngày Đặt Hàng</h4>
+                                        </label>
+                                        <input type="text" placeholder="Ngày Đặt Hàng"
+                                            class="form-control txtngaydathang">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                </div>
+                                <div class="row form-group">
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+                        <div align="center" class="btns">
+                            <button type="submit" class="btn btn-primary btn-sm-2 btnthemDDH">
+                                <i class="fa fa-plus"></i> Thêm
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-danger btn-sm-2 btnxoaDDH btndel">
+                                <i class="fa fa-ban"></i> Xóa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-success btn-sm-2 btnluuDDH">
+                                <i class="fa fa-save"></i> Lưu
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-warning btn-sm-2 btnsuaDDH btnedit">
+                                <i class="fa fa-wrench"></i> Sửa
+                            </button>&nbsp;&nbsp;
+                            <button type="reset" class="btn btn-primary btn-sm-2 btnlamlaiDDH">
+                                <i class="fa fa-rotate-left"></i> Làm lại
+                            </button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-xl-6 ">
+                    <h3 class="display-5">Đơn Đặt Hàng Hiện Có</h3>
+                </div>
+                <div>
+                    <div class="card-header">
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã Đặt Hàng</th>
+                                    <th scope="col">Mã Cửa Hàng</th>
+                                    <th scope="col">Mã Khách Hàng</th>
+                                    <th scope="col">Ngày đặt hàng</th>
+                                    <th scope="col">thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody class="addListDDH">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>45</td>
+                                    <td>012345</td>
+                                    <td>xem</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade showmodal " id="modal-default">
+            <div class="modal-dialog bg-dark">
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <h4 class="modal-title">Thay đổi mật khẩu</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <div class="card-body login-card-body bg-dark">
+
+                                <form action="#" method="post" class="bg-dark">
+
+                                    <div class="input-group mb-3 ">
+                                        <input type="password" class="form-control txtpassnew "
+                                            placeholder="Mật khẩu mới">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">
+                                                <span class="fa fa-key"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3 bg-dark">
+                                        <input type="password" class="form-control txtpassnewagain"
+                                            placeholder="Nhập lại mật khẩu mới">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">
+                                                <span class="fa fa-key"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-between bg-dark">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary btn_change_pass">Thay đổi</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- kết thúc vùng DDH -->
+        <div class="breadcrumbs">
+            <div class="col-sm-10">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-left">
+                            <li class="display-7 active"><b>Copyright © 11/2021 Nguyễn Quý Văn</b> All rights
+                                reserved.<a href="https://www.facebook.com/tejimakouga"
+                                    class="text-primary">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li class="active">Version<i> 1.0</i></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .content -->
+    </div><!-- /#right-panel -->
+
+    <!-- Right Panel -->
+
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+
+
+    <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="assets/js/dashboard.js"></script>
+    <!-- <script src="assets/js/widgets.js"></script> -->
+
+    <script src="js/main.js"></script>
+    <script src="js/XuLy-js.js"></script>
+    <script src="js/xuly-tab-combo.js"></script>
+    <script src="js/xuly-tab-loaimon.js"></script>
+    <script src="js/xuly-tab-monan.js"></script>
+    <script src="js/xuly-tab-NV.js"></script>
+    <script src="js/xuly-tab-phieugiaohang.js"></script>
+    <script src="js/xuly-tab-phieuhen.js"></script>
+    <script src="js/xuly-KH.js"></script>
+    <script src="js/xuly-tab-hoadon.js"></script>
+    <script src="js/xuly-tab-DDH.js"></script>
+    <script src="js/bootbox/bootbox.all.min.js"></script>
+
+
+
+</body>
+
+</html>
