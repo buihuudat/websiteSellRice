@@ -217,7 +217,7 @@ function buildUserDropdown() {
 
     if (myUser == undefined || myUser == null || myUser == "") {
 
-        // location.href = "page-login.html";
+        location.href = "page-login.html";
     } else {
 
         $(".addusername").html("<div style='text-align=center;'>" + myUser.items[0].fullname + '<br><a href="#" class="btn_change_matkhau">[Đổi mật khẩu]</a>&nbsp;<a href="#" class="btn_log_out">[Logout]</a></div>');
